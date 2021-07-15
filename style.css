@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    background-color:gainsboro;
+}
+
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    padding-left: 20px;
+    font-weight: 100;
+    font-size: smaller;
+}
+.login{
+    padding-left: 800px;
+    padding-bottom: 20px;
+}
+.login a{
+    background-color: crimson;
+    padding-right: 15px;
+}
+
+/*---------------------------------
+                  Top Section Style
+---------------------------------*/
+
+.section_title{
+    margin-top: 70px;
+    margin-left: 0px;
+}
+.blog .top_thumbnail{
+    padding-left: 500px;
+}
+.blog .top_thumbnail img{
+    width: 556px;
+    height: 438px;
+   
+}
+.blog .top_thumbnail img:hover{
+    transform: rotate(360deg);
+    transform-origin: center;
+    transition: transform 0.5s ease-in;
+}
+
+/* ------------------------------------------
+-----------------------Football Players style
+--------------------------------------------*/
+
+
+.flexContainer{
+    display: flex;
+    margin-bottom: 10px;
+}
+.player{
+    border: 2px solid whitesmoke;
+    width: 330;
+    height: 474;
+    margin: 2%;
+    padding: 2%;
+    border-image-slice: 1;
+    align-items: center;
+    box-shadow: 10px 10px 40px gray;
+}
+.player img{
+    border-radius: 2px;
+    width: 95%;
+}
+
+
+/*---------------------------------------------
+------------  end blog styles------------------
+-------------------------------------------- */
+.end_blogs>h2{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.blog{
+    display: flex;
+}
+
+.blog .thumbnail img{
+    
+    width: 513px;
+    height: 358px;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+.blog_info{
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 466;
+    height: 241;
+}
+
+.copa{
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+.watch_live{
+    color: whitesmoke;
+    font-size: 16px;
+    width: 173;
+    height: 44;
+    background-color: tomato;
+    text-decoration: none;
+}
+/* ----------------------------------
+            logo styles
+----------------------------------- */
+
+.logo{
+    width: 483;
+    height: 213;
+    padding-left: 600px;
+    padding-top: 100px;
+}
+.logo .logo_pic img{
+    width: 40%;
+    padding-left: 20px;
+}
+.logo_info{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.fab{
+    font-size: 20px;
+    padding-left: 5px;
+}
+.fa-instagram.filled{
+    color: burlywood;
+    
+}
+.logo_info .copyright p{
+    padding-top: 10px;
+    font-weight: 200;
+}
+
+/* ----------------
+    Media Queries
+-----------------*/
+/*--Mobile devices--*/
+
+@media only screen and (max-width:688px) {
+    .flexContainer{
+        display: block;
+    }
+    .blog{
+        display: block;
+    }
+}
